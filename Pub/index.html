@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mic-Mac-Moe</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="jquery-1.12.0.min.js" type="text/javascript"></script>
+		
+		<script src="client.js" type="text/javascript"></script>
+		
+	</head>
+	<body>	
+		<h1>Mic-Mac-Moe</h1>
+	
+		<!-- ---------------------- -->
+		<div id="waitDiv" class="section">
+			<h2 id="waitText"></h2>
+		</div>
+		<!-- ---------------------- -->
+		<div id="mainDiv" class="section">
+		<h2 id="PlayerLetter"></h2>
+		<h2 id="turn"></h2>
+		<h2 id="PlayersInRoom"></h2>
+			<div id="field">
+				<div class="row">
+					<div class="cell"><p id="txt">-</p></div>
+					<div class="cell"><p id="txt">-</p></div>
+					<div class="cell"><p id="txt">-</p></div>
+				</div>
+				<div class="row">
+					<div class="cell"><p id="txt">-</p></div>
+					<div class="cell"><p id="txt">-</p></div>
+					<div class="cell"><p id="txt">-</p></div>
+				</div>
+				<div class="row">
+					<div class="cell"><p id="txt">-</p></div>
+					<div class="cell"><p id="txt">-</p></div>
+					<div class="cell"><p id="txt">-</p></div>
+				</div>
+				
+			</div>
+			<br>
+			<button id="clear">Clear</button>
+		</div>
+		
+		<!-- ---------------------- -->
+		
+		
+		
+	</body>
+</html>
